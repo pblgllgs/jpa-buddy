@@ -6,11 +6,9 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.io.Serializable;
 
 @Table(name = "product")
 @Entity
-@Data
 public class Product {
     @Id
     @Column(name = "id", nullable = false)

@@ -3,12 +3,10 @@ package com.pblgllgs.jpabuddy.entity;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.List;
 
 @Table(name = "customer")
 @Entity
-@Data
 public class Customer {
     @Id
     @Column(name = "id", nullable = false)
